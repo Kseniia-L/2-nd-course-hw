@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = 10;
+        alert(`Задание 1: ${a}`);
+        let iPhone = 2007;
+        alert(`Задание 2: ${iPhone}`);
+        let creator = "Brendan";
+        alert(`Задание 3: ${creator}`);
+        let ten = Number (10); 
+        let two = Number (2);
+        let addition = ten + two;
+        let subtraction = ten - two;
+        let multiplication = ten * two;
+        let division = ten / two;
+        alert(`Задание 4: ${addition} ${subtraction} ${multiplication} ${division}`);
+        let x = Number (2);
+        let result = 2 ** 5;
+        alert(`Задание 5: ${result}`);
+        let aa = 9;
+        let b = 2;
+        let percent = 9 % 2;
+        alert(`Задание 6: ${percent}`);
+        let num = 1;
+        num = num + 5;
+        num = num - 3;
+        num = num * 7;
+        num = num / 3;
+        num = num++;
+        num = num--;
+        alert(`Задание 7: ${num}`);
+        let age = prompt('Сколько вам лет?');
+        alert(`Задание 8: ${age}`);
+        const user = {
+            name: 'Мария',
+            age: 30,
+            isAdmin: false,
+            "city of residence": 'Сургут',
+        };
+        user.age=17;
+        delete user ['city of residence'];
+        let info = prompt('Какую информацию хотите узнать о пользователе?');
+        console.log(user[info]);
+        alert(`Задание 9: ${user[info]}`);
+        let userName = prompt('Введите как вас зовут?');
+        alert(`Задание 10: Привет, ${userName} !`);
+    </script>
+</body>
+</html>
