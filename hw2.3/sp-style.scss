@@ -53,6 +53,7 @@ body {
         align-items: center;
         justify-content: center;
         color: #FFFFFF;
+
         &:hover {
             background: #EB443F;
         }
@@ -97,7 +98,8 @@ body {
         &_3 {
             background-image: url(img/game3.jpg);
         }
-        &:hover{
+
+        &:hover {
             border: 3px solid #44D2FF;
             border-radius: 16px;
         }
